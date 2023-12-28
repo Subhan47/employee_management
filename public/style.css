@@ -1,0 +1,53 @@
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.searchDiv {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 5px;
+}
+.navigationButton {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5px;
+}
+.action-link {
+    margin-right: 8px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.pagination li {
+    margin-right: 5px;
+}
+.pagination a,
+.pagination span {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.pagination a:hover {
+    background-color: #f2f2f2;
+}
+.pagination .active span {
+    background-color: #007bff;
+    color: #fff;
+}
+.input-group{
+    margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px; /* Adjust padding for smaller screens */
+    }
+}
